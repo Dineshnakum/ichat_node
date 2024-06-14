@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=8.0">
+    <title>I-Chat - Real time</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="logo">
+        <h1>Welcome to iDiscuss Chat App</h1>
+    </nav>
+    <div class="container">
+        <!-- <div class="message right">Bhargav: hey hou are you?</div> -->
+
+        <!-- <div class="message left">Harry: hey hou are you?</div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container" method="post">
+            <input type="text" name="messageInp" id="messageInp" required>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
